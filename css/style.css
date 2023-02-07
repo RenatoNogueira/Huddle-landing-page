@@ -12,6 +12,13 @@ html {
     --soft-white: hsl(0, 0%, 100%);
 }
 
+main,
+header {
+    max-width: 1440px;
+    width: auto;
+    margin: 0 auto;
+}
+
 body {
     background: var(--violet) url(../images/bg-desktop.svg) center center/cover no-repeat fixed;
 }
